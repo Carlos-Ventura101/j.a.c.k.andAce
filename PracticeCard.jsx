@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PapCard from "./PapCard";
 
-function ClassPresident() {
+function CarSales() {
   const [vehicleData, setVehicleData] = useState({
     inventory: [
       {
@@ -347,4 +347,4 @@ function ClassPresident() {
     </React.Fragment>
   );
 }
-export default ClassPresident;
+export default CarSales;
